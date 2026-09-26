@@ -82,31 +82,29 @@ def Disk():
     print(f"Disk: {Used_disk_formatted:.2f} GiB / {Total_disk_formatted:.2f} GiB  ({Used_disk_percentage:.2f} %)")
 
 
-print(f"\n")
+
 print(f"                                           \n");
-print(f"                                           \n");
-print(f"████  █   █ █████ █████ █████  ███  █   █    .");
-print(f"█░░░█  █ █ ░█░░░░░█░░░░░ ░█░░░█ ░░░ █░  █░   .");
-print(f"████░░  █ ░ ████░░████░░░ █░░░█░ ░░░█████░░  .");
-print(f"█░░░░ ░ █░ ░█░░░░ █░░░░   █░░ █░░   █░░░█░░  .");
-print(f"█░░░░░  █░░ █░░░░░█████░  █░░  ███  █░░░█░░  .");
-print(f"░░      ░░  ░░    ░░░░░   ░░   ░░░  ░░  ░░   .");
-print(f"░       ░   ░     ░░░░░   ░    ░░░  ░   ░    .");
-print(f"                                           \n");
-print(f"                                           \n");
+print(f"████  █   █ █████ █████ █████  ███  █   █    ");
+print(f"█░░░█  █ █ ░█░░░░░█░░░░░ ░█░░░█ ░░░ █░  █░   ");
+print(f"████░░  █ ░ ████░░████░░░ █░░░█░ ░░░█████░░  ");
+print(f"█░░░░ ░ █░ ░█░░░░ █░░░░   █░░ █░░   █░░░█░░  ");
+print(f"█░░░░░  █░░ █░░░░░█████░  █░░  ███  █░░░█░░  ");
+print(f"░░      ░░  ░░    ░░░░░   ░░   ░░░  ░░  ░░   ");
+print(f"░       ░   ░     ░░░░░   ░    ░░░  ░   ░    ");
 print(f"                                           \n");
 
 User()
 Hostname()
 OS()
 Distro()
-(Kernel()
-(CPU()
-(RAM()
-(Uptime()
-(WM_DE()
-(Terminal()
-(Shell()
-(Disk()
+Kernel()
+CPU()
+RAM()
+Uptime()
+WM_DE()
+Terminal()
+Shell()
+Disk()
 
+print("\n")
  
