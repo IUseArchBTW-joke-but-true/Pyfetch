@@ -18,7 +18,7 @@ def OS():
 
 def Distro():
     os_info = platform.freedesktop_os_release()
-    print(f"Distro: {os_info["PRETTY_NAME"]}")
+    print(f"Distro: {os_info['PRETTY_NAME']}")
 
 def Kernel():
     print(f"Kernel: {platform.release()}")
@@ -96,15 +96,17 @@ print(f"                                           \n");
 print(f"                                           \n");
 print(f"                                           \n");
 
-print(User())
-print(Hostname())
-print(OS())
-print(Distro())
-print(Kernel())
-print(CPU())
-print(RAM())
-print(Uptime())
-print(WM_DE())
-print (Terminal())
-print(Shell())
-print(Disk())
+User()
+Hostname()
+OS()
+Distro()
+(Kernel()
+(CPU()
+(RAM()
+(Uptime()
+(WM_DE()
+(Terminal()
+(Shell()
+(Disk()
+
+ 
