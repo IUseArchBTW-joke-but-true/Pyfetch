@@ -7,7 +7,7 @@ url="https://github.com/IUseArchBTW-joke-but-true/Pyfetch"
 license=('MIT')
 depends=('python')
 source=("https://github.com/IUseArchBTW-joke-but-true/Pyfetch/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('1963eb6e898958adffce1e0ddfddd33c0c69c49e8bc00c2581031fc02d9d38c9')
 
 package() {
     install -Dm755 "$srcdir/Pyfetch-${pkgver}/main.py" \
